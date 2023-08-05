@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <title>Venta de Bajo</title>
+</head>
+<body>
+    <div class="container"></div>
+        <div class="box1">
+            <img src="/assest/img/bassred.jpg" alt="Bajo de color rojo">
+            <p class="nombre">Bajo Cort 4 cuerdas</p>
+            <input class="cantidad" type="text" value="1">
+            <select id="color" onchange="BackColor()">
+                <option value="---">---</option>
+                <option value="green">green</option>
+                <option value="grey">grey</option>
+                <option value="red">red</option>
+                <option value="black">black</option>
+            </select>
+            <p class="price">Precio: $251.900</p>
+            <button onclick="FinalPrice()">Calcular Total</button>
+        </div>
+        <div class="cajita2">
+            <p>Total: <span class="total"></span></p>
+            <p>Cantidad: <span class="total-cantidad"></span></p>
+            <p>Color: <span class="circle">◉</span></p>
+        </div>
+    </div>
+    <script src="./assest/js/script.js"></script>
+
+
+    
+</body>
+</html>

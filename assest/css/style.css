@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Raleway:wght@100&family=Righteous&family=Roboto:wght@500&display=swap");
+
+/* Body */
+
+body {
+    background-color: rgb(196, 213, 230);
+    font-family: "Kanit", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-family: "Righteous", cursive;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    padding-top: 100px;
+    align-items: center;
+}
+
+/* cajita 1 */
+
+.box1 img {
+    width: 10vw;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    border: 1px solid;
+    gap: 3px;
+    padding: 10px;
+    border-radius: 1.25rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(148, 181, 241);
+}
+
+.box1 button {
+    width: 13vw;
+    height: 35px;
+    background: rgb(241, 245, 245);
+    color: rgb(8, 2, 2);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.cantidad {
+    width: 75%;
+    height: 25px;
+}
+
+.circle{
+    font-size: 30px;
+}
+
+.box1 p {
+    margin: 0;
+}
+
+/* Cajita2 */
+
+.cajita2 {
+    padding-left: 50px;
+}
+
+.cajita2 p {
+    margin: 0px;
+}
